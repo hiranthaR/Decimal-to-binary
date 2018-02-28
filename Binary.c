@@ -13,8 +13,13 @@ int binary(int number){
 
 int main(){
 
-	int answer = binary(63);
-	printf("%d\n" , answer);
+	printf("Enter the Decimal number: ");
+	int decimal;
+
+	scanf("%d",&decimal);
+
+	int answer = binary(decimal);
+	printf("\n\nbinary: %d\n" , answer);
 
 	return 0;
 }
